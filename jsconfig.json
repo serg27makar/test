@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@models": ["./models/index.js"],
+      "@models/*": ["./models/*"],
+      "@controllers/*": ["./server/controllers/*"],
+      "@services/*": ["./server/services/*"],
+      "@config-server/*": [".server/config/*"]
+    }
+  }
+}
